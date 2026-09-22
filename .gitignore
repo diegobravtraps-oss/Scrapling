@@ -48,6 +48,7 @@ venv.bak/
 
 # vscode
 *.code-workspace
+.vscode/
 
 # Packages
 *.egg
@@ -110,3 +111,9 @@ output/*/index.html
 docs/_build
 public/
 web/
+
+# Salida de los scripts de ejemplo
+salida/
+
+# Marcador generado por Scrapling al instalar sus dependencias
+scrapling/.scrapling_dependencies_installed
